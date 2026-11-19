@@ -23,7 +23,7 @@ here is an example of how to generate a 2-second 440Hz (A4) sine wave and save i
 
 ```python
 import struct
-from kid_synth import plot_sine, byte_master, wav_header
+from waveplot import plot_sine, byte_master, wav_header
 
 # 1. generate audio samples (mono, 44100Hz, 0.5 amplitude, 2 seconds)
 samples = plot_sine(freq=440.0, samplerate=44100, amp=0.5, duration=2.0)
