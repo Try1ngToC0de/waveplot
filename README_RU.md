@@ -23,7 +23,7 @@ pip install -e .
 
 ```python
 import struct
-from kid_synth import plot_sine, byte_master, wav_header
+from waveplot import plot_sine, byte_master, wav_header
 
 # 1. генерируем аудио-сэмплы (моно, 44100Гц, амплитуда 0.5, 2 секунды)
 samples = plot_sine(freq=440.0, samplerate=44100, amp=0.5, duration=2.0)
